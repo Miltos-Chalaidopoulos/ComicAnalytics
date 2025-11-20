@@ -13,6 +13,7 @@ A destop app build with **python** and **pyside6 (qt)** for managing comic book 
 - *CSV export*
 - *Database backup/deletion*
 - *Dark/Light theme support*
+- *Manual querry execution*
 
 ## Technologies used
 - **Python 3.12 :** Programming Languege
@@ -65,3 +66,13 @@ pyinstaller --onefile --noconfirm --distpath ../dist --workpath ../build --name 
 pyinstaller --onefile --noconfirm --windowed --name ComicAnalytics --distpath dist --workpath build --paths src src\main.py
 ```
 executable file is located in /dist with name ComicAnalytics
+## Application 
+Some screenshots from the Comic Analitics app
+### Main Screen
+![Screenshot](media/1.png)
+### Manual Comic Addition
+![Screenshot](media/2.png)
+### Filer result
+![Screenshot](media/3.png)
+### File options
+![Screenshot](media/4.png)
